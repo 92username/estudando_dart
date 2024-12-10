@@ -1,9 +1,9 @@
 # Roteiro de Estudos Dart
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
+
 ![Last Commit](https://img.shields.io/github/last-commit/92username/estudando_dart)
-![Build Status](https://img.shields.io/github/workflow/status/92username/dart-studies/Dart%20CI)
-![Language](https://img.shields.io/badge/language-Dart-blue)
+[![Dart](https://github.com/92username/estudando_dart/actions/workflows/dart.yml/badge.svg)](https://github.com/92username/estudando_dart/actions/workflows/dart.yml)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ## Visão Geral
