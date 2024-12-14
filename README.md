@@ -1,6 +1,6 @@
 # Roteiro de Estudos Dart
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Version](https://img.shields.io/badge/version-1.0.1-blue)
 
 ![Last Commit](https://img.shields.io/github/last-commit/92username/estudando_dart)
 [![Dart](https://github.com/92username/estudando_dart/actions/workflows/dart.yml/badge.svg)](https://github.com/92username/estudando_dart/actions/workflows/dart.yml)
