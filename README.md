@@ -3,6 +3,7 @@
 ![Version](https://img.shields.io/badge/version-1.0.1-blue)
 
 ![Last Commit](https://img.shields.io/github/last-commit/92username/estudando_dart)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a99e32ba7eb34eab9c7495ecb59729c8)](https://app.codacy.com/gh/92username/estudando_dart?utm_source=github.com&utm_medium=referral&utm_content=92username/estudando_dart&utm_campaign=Badge_Grade)
 [![Dart](https://github.com/92username/estudando_dart/actions/workflows/dart.yml/badge.svg)](https://github.com/92username/estudando_dart/actions/workflows/dart.yml)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
