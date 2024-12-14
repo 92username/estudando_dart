@@ -4,21 +4,11 @@
 // e imprima uma mensagem informativa nesse caso.
 
 void main() {
-  List<int> numeros = [1, 2, 3, 4, 5];
+  List<int> numeros = [1, 7, 3, 4, 5];
+  int maiorNumero = numeros.reduce((a, b) => a > b ? a : b);
+  int soma =
+      numeros.reduce((a, b) => a + b); // criado para testar soma usando reduce
 
-  // Tamanho da lista
-  print(numeros.length); // 5
-
-  // Verificar se está vazia
-  print(numeros.isEmpty); // false
-  print(numeros.isNotEmpty); // true
-
-  // Verificar se contém um elemento
-  print(numeros.contains(3)); // true
-
-  // Inverter a lista
-  print(numeros.reversed.toList()); // [5, 4, 3, 2, 1]
-
-  // Criar uma sublista
-  print(numeros.sublist(1, 4)); // [2, 3, 4] (índices 1 a 3)
+  print("O maior número é: $maiorNumero");
+  print("A soma dos elementos da lista é: $soma"); // teste soma usando reduce
 }
