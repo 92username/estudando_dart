@@ -1,6 +1,6 @@
 # Roteiro de Estudos Dart
 
-![Version](https://img.shields.io/badge/version-1.0.1-blue)
+![Version](https://img.shields.io/badge/version-1.0.1-blue) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/819895ce688045b08193c8737790ddbb)](https://app.codacy.com/gh/92username/estudando_dart/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
 ![Last Commit](https://img.shields.io/github/last-commit/92username/estudando_dart)
 [![Dart](https://github.com/92username/estudando_dart/actions/workflows/dart.yml/badge.svg)](https://github.com/92username/estudando_dart/actions/workflows/dart.yml)
