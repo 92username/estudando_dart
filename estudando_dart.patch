@@ -1,0 +1,352 @@
+diff --git a/test/estudando_dart.patch b/test/estudando_dart.patch
+index 3ef8363..e69de29 100644
+--- a/test/estudando_dart.patch
++++ b/test/estudando_dart.patch
+@@ -1,347 +0,0 @@
+-diff --git a/README.md b/README.md
+---- a/README.md
+-+++ b/README.md
+-@@ -9,1 +9,1 @@
+--## VisÃ£o Geral
+-+## VisÃ£o Geral
+-
+-@@ -32,1 +32,1 @@
+--- Pratique regularmente escrevendo cÃ³digo e resolvendo exercÃ­cios.
+-+
+-- Pratique regularmente escrevendo cÃ³digo e resolvendo exercÃ­cios.
+-@@ -38,1 +38,1 @@
+--
+-+
+-@@ -47,1 +47,1 @@
+--## Objetivo
+-+## Objetivo
+-
+-@@ -54,1 +54,1 @@
+--### 1.1 O que Ã© Dart?
+-+### 1.1 O que Ã© Dart?
+-
+-@@ -55,1 +55,1 @@
+--- HistÃ³ria do Dart
+-+
+-- HistÃ³ria do Dart
+-@@ -59,1 +59,1 @@
+--### 1.2 Instalando e Configurando o Ambiente
+-+### 1.2 Instalando e Configurando o Ambiente
+-
+-@@ -60,1 +60,1 @@
+--- Instalar o Dart SDK
+-+
+-- Instalar o Dart SDK
+-@@ -64,1 +64,1 @@
+--### 1.3 Hello World
+-+### 1.3 Hello World
+-
+-@@ -65,1 +65,1 @@
+--- Criar um programa simples de "Hello, World!"
+-+
+-- Criar um programa simples de "Hello, World!"
+-@@ -72,1 +72,1 @@
+--### 2.1 Tipos de Dados
+-+### 2.1 Tipos de Dados
+-
+-@@ -73,1 +73,1 @@
+--- Inteiros, doubles e Strings
+-+
+-- Inteiros, doubles e Strings
+-@@ -77,1 +77,1 @@
+--### 2.2 VariÃ¡veis e Constantes
+-+### 2.2 VariÃ¡veis e Constantes
+-
+-@@ -78,1 +78,1 @@
+--- AtribuiÃ§Ã£o de valores em variÃ¡veis
+-+
+-- AtribuiÃ§Ã£o de valores em variÃ¡veis
+-@@ -82,1 +82,1 @@
+--### 2.3 Operadores
+-+### 2.3 Operadores
+-
+-@@ -83,1 +83,1 @@
+--- Operadores aritmÃ©ticos, lÃ³gicos e relacionais
+-+
+-- Operadores aritmÃ©ticos, lÃ³gicos e relacionais
+-@@ -86,1 +86,1 @@
+--### 2.4 Controle de Fluxo
+-+### 2.4 Controle de Fluxo
+-
+-@@ -87,1 +87,1 @@
+--- Estruturas condicionais: `if`, `else if`, `else`
+-+
+-- Estruturas condicionais: `if`, `else if`, `else`
+-@@ -95,1 +95,1 @@
+--### 3.1 Definindo FunÃ§Ãµes
+-+### 3.1 Definindo FunÃ§Ãµes
+-
+-@@ -96,1 +96,1 @@
+--- FunÃ§Ãµes sem retorno e com retorno
+-+
+-- FunÃ§Ãµes sem retorno e com retorno
+-@@ -100,1 +100,1 @@
+--### 3.2 FunÃ§Ãµes de Alta Ordem
+-+### 3.2 FunÃ§Ãµes de Alta Ordem
+-
+-@@ -101,1 +101,1 @@
+--- Passando funÃ§Ãµes como argumentos
+-+
+-- Passando funÃ§Ãµes como argumentos
+-@@ -108,1 +108,1 @@
+--### 4.1 Classes e Objetos
+-+### 4.1 Classes e Objetos
+-
+-@@ -109,1 +109,1 @@
+--- Definindo uma classe
+-+
+-- Definindo uma classe
+-@@ -113,1 +113,1 @@
+--### 4.2 Encapsulamento
+-+### 4.2 Encapsulamento
+-
+-@@ -114,1 +114,1 @@
+--- Atributos privados e pÃºblicos
+-+
+-- Atributos privados e pÃºblicos
+-@@ -117,1 +117,1 @@
+--### 4.3 HeranÃ§a e Polimorfismo
+-+### 4.3 HeranÃ§a e Polimorfismo
+-
+-@@ -118,1 +118,1 @@
+--- Como funciona a heranÃ§a no Dart
+-+
+-- Como funciona a heranÃ§a no Dart
+-@@ -121,1 +121,1 @@
+--### 4.4 Interfaces e Mixins
+-+### 4.4 Interfaces e Mixins
+-
+-@@ -122,1 +122,1 @@
+--- Implementando interfaces
+-+
+-- Implementando interfaces
+-@@ -129,1 +129,1 @@
+--### 5.1 Futures
+-+### 5.1 Futures
+-
+-@@ -130,1 +130,1 @@
+--- Trabalhando com `Future` e `async`/`await`
+-+
+-- Trabalhando com `Future` e `async`/`await`
+-@@ -133,1 +133,1 @@
+--### 5.2 Streams
+-+### 5.2 Streams
+-
+-@@ -134,1 +134,1 @@
+--- O que sÃ£o `Streams` e como utilizÃ¡-los
+-+
+-- O que sÃ£o `Streams` e como utilizÃ¡-los
+-@@ -141,1 +141,1 @@
+--### 6.1 Pacotes e DependÃªncias
+-+### 6.1 Pacotes e DependÃªncias
+-
+-@@ -142,1 +142,1 @@
+--- Como usar pacotes no Dart
+-+
+-- Como usar pacotes no Dart
+-@@ -145,1 +145,1 @@
+--### 6.2 Bibliotecas PadrÃ£o
+-+### 6.2 Bibliotecas PadrÃ£o
+-
+-@@ -146,1 +146,1 @@
+--- Trabalhando com `dart:io`, `dart:convert` e `dart:async`
+-+
+-- Trabalhando com `dart:io`, `dart:convert` e `dart:async`
+-@@ -153,1 +153,1 @@
+--### 7.1 FormataÃ§Ã£o de CÃ³digo
+-+### 7.1 FormataÃ§Ã£o de CÃ³digo
+-
+-@@ -154,1 +154,1 @@
+--- Como manter um cÃ³digo limpo e legÃ­vel
+-+
+-- Como manter um cÃ³digo limpo e legÃ­vel
+-@@ -157,1 +157,1 @@
+--### 7.2 Testes UnitÃ¡rios
+-+### 7.2 Testes UnitÃ¡rios
+-
+-@@ -158,1 +158,1 @@
+--- IntroduÃ§Ã£o aos testes unitÃ¡rios em Dart
+-+
+-- IntroduÃ§Ã£o aos testes unitÃ¡rios em Dart
+-@@ -165,1 +165,1 @@
+--### 8.1 AplicaÃ§Ã£o de Console
+-+### 8.1 AplicaÃ§Ã£o de Console
+-
+-@@ -166,1 +166,1 @@
+--- Criar um simples gerenciador de tarefas usando Dart
+-+
+-- Criar um simples gerenciador de tarefas usando Dart
+-@@ -169,1 +169,1 @@
+--### 8.2 APIs e ConexÃµes Externas
+-+### 8.2 APIs e ConexÃµes Externas
+-
+-@@ -170,1 +170,1 @@
+--- Consumir uma API externa usando o pacote `http`
+-+
+-- Consumir uma API externa usando o pacote `http`
+-@@ -177,1 +177,1 @@
+--### 9.1 Dart em Flutter
+-+### 9.1 Dart em Flutter
+-
+-@@ -178,1 +178,1 @@
+--- IntroduÃ§Ã£o ao Flutter
+-+
+-- IntroduÃ§Ã£o ao Flutter
+-@@ -182,1 +182,1 @@
+--### 9.2 Desenvolvimento para Web com Dart
+-+### 9.2 Desenvolvimento para Web com Dart
+-
+-diff --git a/cola.md b/cola.md
+---- a/cola.md
+-+++ b/cola.md
+-@@ -5,1 +5,1 @@
+--### DeclaraÃ§Ã£o de VariÃ¡veis:
+-+### DeclaraÃ§Ã£o de VariÃ¡veis
+-@@ -14,1 +14,1 @@
+--### Constantes e Finais:
+-+### Constantes e Finais:
+-
+-@@ -15,1 +15,1 @@
+--- `final`: Valor atribuÃ­do apenas uma vez, mas calculado em tempo de execuÃ§Ã£o.
+-+
+-- `final`: Valor atribuÃ­do apenas uma vez, mas calculado em tempo de execuÃ§Ã£o.
+-@@ -27,1 +27,1 @@
+--### FunÃ§Ã£o Simples:
+-+### FunÃ§Ã£o Simples:
+-
+-@@ -34,1 +34,1 @@
+--### FunÃ§Ã£o com Arrow Function:
+-+### FunÃ§Ã£o com Arrow Function
+-@@ -39,1 +39,1 @@
+--### FunÃ§Ã£o com Valores PadrÃ£o:
+-+### FunÃ§Ã£o com Valores PadrÃ£o:
+-
+-@@ -50,1 +50,1 @@
+--### Condicionais:
+-+### Condicionais
+-@@ -59,1 +59,1 @@
+--### Switch-Case:
+-+### Switch-Case
+-@@ -74,1 +74,1 @@
+--### Loop For:
+-+### Loop For
+-@@ -81,1 +81,1 @@
+--### For-In:
+-+### For-In:
+-
+-@@ -89,1 +89,1 @@
+--### While:
+-+### While:
+-
+-@@ -102,1 +102,1 @@
+--### Criando Listas:
+-+### Criando Listas:
+-
+-@@ -127,1 +127,1 @@
+--### Lista DinÃ¢mica:
+-+### Lista DinÃ¢mica:
+-
+-@@ -132,1 +132,1 @@
+--### Adicionando Elementos:
+-+### Adicionando Elementos:
+-
+-@@ -139,1 +139,1 @@
+--### Removendo Elementos:
+-+### Removendo Elementos
+-@@ -145,1 +145,1 @@
+--### Acessando Elementos:
+-+### Acessando Elementos
+-@@ -151,1 +151,1 @@
+--### Iterando sobre Listas:
+-+### Iterando sobre Listas
+-@@ -164,1 +164,1 @@
+--### MÃ©todos Ãteis de Listas:
+-+### MÃ©todos Ãteis de Listas:
+-
+-@@ -176,1 +176,1 @@
+--### **Pratique com esses conceitos!**
+-+### **Pratique com esses conceitos!**
+-
+-diff --git a/historia_dart.md b/historia_dart.md
+---- a/historia_dart.md
+-+++ b/historia_dart.md
+-@@ -5,1 +5,1 @@
+--## Origens e CriaÃ§Ã£o
+-+## Origens e CriaÃ§Ã£o
+-
+-@@ -10,1 +10,1 @@
+--## EvoluÃ§Ã£o ao Longo do Tempo
+-+## EvoluÃ§Ã£o ao Longo do Tempo
+-
+-@@ -14,1 +14,1 @@
+--- **Tipagem forte e segura**: Facilita a detecÃ§Ã£o de erros em tempo de compilaÃ§Ã£o.
+-+
+-- **Tipagem forte e segura**: Facilita a detecÃ§Ã£o de erros em tempo de compilaÃ§Ã£o.
+-@@ -18,1 +18,1 @@
+--## Dart e o Flutter
+-+## Dart e o Flutter
+-
+-@@ -23,1 +23,1 @@
+--## O Futuro do Dart
+-+## O Futuro do Dart
+-
+-@@ -27,1 +27,1 @@
+--- **WebAssembly**: Dart pode ser usado para compilar cÃ³digo para WebAssembly, tornando-o Ãºtil para aplicativos de alto desempenho na web.
+-+
+-- **WebAssembly**: Dart pode ser usado para compilar cÃ³digo para WebAssembly, tornando-o Ãºtil para aplicativos de alto desempenho na web.
+-@@ -33,1 +33,1 @@
+--- [Dart Documentation](https://dart.dev/guides)
+-+
+-- [Dart Documentation](https://dart.dev/guides)
+-diff --git a/caracteristicas.md b/caracteristicas.md
+---- a/caracteristicas.md
+-+++ b/caracteristicas.md
+-@@ -30,1 +30,1 @@
+--## 3. CompilaÃ§Ã£o para CÃ³digo Nativo
+-+
+-## 3. CompilaÃ§Ã£o para CÃ³digo Nativo
+-@@ -46,1 +46,1 @@
+--## 5. OrientaÃ§Ã£o a Objetos
+-+
+-## 5. OrientaÃ§Ã£o a Objetos
+-@@ -73,1 +73,1 @@
+--## 6. Bibliotecas e Pacotes
+-+
+-## 6. Bibliotecas e Pacotes
+-@@ -84,1 +84,1 @@
+--- **Uso eficiente de memÃ³ria**: Dart tem um mecanismo de coleta de lixo eficiente, que ajuda a reduzir o uso excessivo de memÃ³ria.
+-+- **Uso eficiente de memÃ³ria**: Dart tem um mecanismo de coleta de lixo eficiente, que ajuda a reduzir o uso excessivo de memÃ³ria.
+-
+-@@ -85,1 +85,1 @@
+--## 8. Suporte Multiplataforma
+-+
+-## 8. Suporte Multiplataforma
+-@@ -95,1 +95,1 @@
+--## ConclusÃ£o:
+-+## ConclusÃ£o
+-@@ -99,1 +99,1 @@
+--O Dart Ã© uma linguagem de programaÃ§Ã£o moderna e poderosa, ideal para o desenvolvimento de aplicativos mÃ³veis e web, com desempenho elevado, sintaxe simples e ampla flexibilidade. Suas caracterÃ­sticas como tipagem forte, assincronicidade e orientaÃ§Ã£o a objetos fazem dela uma excelente escolha para desenvolvedores que buscam criar aplicaÃ§Ãµes rÃ¡pidas e escalÃ¡veis.
+-+
+-diff --git a/visao-geral.md b/visao-geral.md
+---- a/visao-geral.md
+-+++ b/visao-geral.md
+-@@ -5,1 +5,1 @@
+--## Objetivo
+-+## Objetivo
+-
+-@@ -8,1 +8,1 @@
+--## O que vocÃª vai aprender
+-+## O que vocÃª vai aprender
+-
+-@@ -9,1 +9,1 @@
+--- **Fundamentos do Dart**: Desde a configuraÃ§Ã£o do ambiente atÃ© a criaÃ§Ã£o de funÃ§Ãµes e controle de fluxo.
+-+
+-- **Fundamentos do Dart**: Desde a configuraÃ§Ã£o do ambiente atÃ© a criaÃ§Ã£o de funÃ§Ãµes e controle de fluxo.
+-@@ -14,1 +14,1 @@
+--## Como usar este guia
+-+## Como usar este guia
